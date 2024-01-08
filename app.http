@@ -1,0 +1,33 @@
+###5th API
+DELETE http://localhost:3000/todos/2/
+
+
+###4th API
+
+PUT http://localhost:3000/todos/2/
+
+Content-Type:application/json
+{
+  "todo_status": "DONE"
+}
+
+
+###3rd API
+todo_id,todo_name,todo_priority,todo_status
+
+POST http://localhost:3000/todos/
+Content-Type:application/json
+{
+  "todo_id": 4,
+  "todo_name":"Learn NODE",
+  "todo_priority": "HIGH",
+  "todo_priority": "IN PROGRESS"
+}
+
+###2nd API
+
+GET http://localhost:3000/todos/2/
+
+
+###1st API
+GET http://localhost:3000/todos/
